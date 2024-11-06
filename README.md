@@ -1,12 +1,12 @@
 config user saml
     edit "azure"
         set cert "Fortinet_Factory"
-        set entity-id "https://67.53.1.149/remote/saml/metadata"
-        set single-sign-on-url "https://67.53.1.149/remote/saml/login"
-        set single-logout-url "https://67.53.1.149/remote/saml/logout"
-        set idp-entity-id "https://sts.windows.net/b04cf886-fdb3-4a84-b83c-ee3ac8a860b1/"
-        set idp-single-sign-on-url "https://login.microsoftonline.com/b04cf886-fdb3-4a84-b83c-ee3ac8a860b1/saml2"
-        set idp-single-logout-url "https://login.microsoftonline.com/b04cf886-fdb3-4a84-b83c-ee3ac8a860b1/saml2"
+        set entity-id "https://50.175.82.150/remote/saml/metadata"
+        set single-sign-on-url "https://50.175.82.150/remote/saml/login"
+        set single-logout-url "https://50.175.82.150/remote/saml/logout"
+        set idp-entity-id "https://sts.windows.net/43795e9c-df0d-467a-a8bf-45d9838e9c3d/"
+        set idp-single-sign-on-url "https://login.microsoftonline.com/43795e9c-df0d-467a-a8bf-45d9838e9c3d/saml2"
+        set idp-single-logout-url "https://login.microsoftonline.com/43795e9c-df0d-467a-a8bf-45d9838e9c3d/saml2"
         set idp-cert "REMOTE_Cert_1"
         set user-name "username"
         set group-name "group"
@@ -24,7 +24,7 @@ config user group
         config match
             edit 1
                 set server-name "azure"
-                set group-name "03c1c42b-e7d2-4602-9501-f3708ddec91d"
+                set group-name "32a4d618-51a7-456d-959e-3df655ba3a71"
             next
         end
     next

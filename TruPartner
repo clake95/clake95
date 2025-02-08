@@ -6,7 +6,7 @@ config user saml
         set single-logout-url "https://12.26.212.114/remote/saml/logout"
         set idp-entity-id "https://sts.windows.net/8a15914d-40ec-4d86-a2f0-2377393ed340/"
         set idp-single-sign-on-url "https://login.microsoftonline.com/43795e9c-df0d-467a-a8bf-45d9838e9c3d/saml2"
-        set idp-single-logout-url "https://login.microsoftonline.com/43795e9c-df0d-467a-a8bf-45d9838e9c3d/saml2"
+        set idp-single-logout-url "https://login.microsoftonline.com/8a15914d-40ec-4d86-a2f0-2377393ed340/saml2"
         set idp-cert "REMOTE_Cert_1"
         set user-name "username"
         set group-name "group"

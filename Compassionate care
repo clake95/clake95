@@ -10,6 +10,7 @@ config user saml
         set idp-cert "REMOTE_Cert_1"
         set user-name "username"
         set group-name "group"
+        set digest-method sha256
     next
 end
 config user group

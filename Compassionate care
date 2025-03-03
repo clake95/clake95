@@ -24,7 +24,7 @@ config user group
         config match
             edit 1
                 set server-name "azure"
-                set group-name "32a4d618-51a7-456d-959e-3df655ba3a71"
+                set group-name "17500e66-4e15-48f5-b908-5785a08b822c"
             next
         end
     next
